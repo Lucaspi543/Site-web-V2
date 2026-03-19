@@ -1,0 +1,1193 @@
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
+
+ /* POUR TOUTE LA PAGE----------------------- */
+
+body{
+max-width: 100%;
+   max-height: 100%;
+   height: 100%;
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   padding: 0;
+    min-height: 200vh;
+  font-family: Georgia, "Playfair Display", serif;
+
+    min-height: 100vh;
+  background-color: #ebf7ff; /* couleur de fond */
+  background-image:
+    linear-gradient(to right, #dfdfdf 0.1rem, transparent 0.1rem),
+    linear-gradient(to bottom, #d4d4d4 0.1rem, transparent 0.1rem);
+  background-size: 110px 110px;
+  background-attachment: fixed;
+  color: black;
+ 
+}
+
+
+ /* mise en page de défielement fluide*/
+ html {
+   background-color: white;
+   z-index: 100;
+   height: 100%;
+   width: 100%;
+   scroll-behavior: smooth;
+   scroll-snap-type: y mandatory;
+   margin: 0;
+   
+ }
+
+
+ /* mettre les différente sections sur une grande page */
+ .panel{
+   height: 100vh;
+   width: 100vw;
+   scroll-snap-align: start;
+   display: block;
+   
+ }
+
+
+ 
+
+ section {
+   max-width: 100%;
+   max-height: 100%;
+   height: 100%;
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   padding: 0;
+ }
+
+ 
+
+ .fond-gris {
+   top: 0;
+   left: 0;
+   color: black;
+   background-color: black;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index:100;
+ }
+
+ .intitule {
+  width: 22em;
+  font-size: 1rem;
+
+  display: flex;
+  position:absolute;
+  right: 4em;
+  transition: 1s ease-in-out;
+  scale: 1;
+color: black;
+}
+
+ a {
+    text-decoration: underline;
+    color: rgb(136, 36, 219);
+    
+}
+
+main{
+   min-height: 100vh;
+  background-color: #eed5ff; /* couleur de fond */
+  background-image:
+    linear-gradient(to right, #ffffff 0.1rem, transparent 0.1rem),
+    linear-gradient(to bottom, #ffffff 0.1rem, transparent 0.1rem);
+  background-size: 110px 110px;
+  background-attachment: fixed;
+  color: black;
+}
+
+ /* ACCUEIL---------------------------------------- */
+
+
+
+ /* ---------------------------------------------------------- */
+.stars1{
+  position: absolute;
+  width: 5em;
+  height: 5em;
+   background-image: url(logo/star2.svg);
+   left: 4em;
+   top: 17em;
+}
+
+.stars2{
+  position: absolute;
+  top: 17em;
+  right: 4em;
+  width: 5em;
+  height: 5em;
+   background-image: url(logo/star2.svg);
+}
+
+.bigstars {
+   position: absolute;
+   top: 2rem;
+   
+  width: 8em;
+  height: 8em;
+  background-image: url(logo/star1.svg);
+  z-index: 1000;
+}
+
+
+
+
+
+.manette {
+  width: 50%;
+}
+
+.header {
+  padding: 1rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/* --------------------------------------------- */
+
+.description-site {
+  font-size: 1.5em;
+  position: absolute;
+  top:10em;
+  transition: fondu 3s ease-in-out;
+}
+
+@keyframes fondu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.star-required {
+  color: red
+}
+
+
+ .lineh {
+
+
+  position: absolute;
+  
+  right: 8em;
+   display: flex;
+   align-items: center;
+   white-space: pre-wrap;
+   
+ }
+
+ .line {
+   display: flex;
+   border-top: 0.01rem solid black;
+   width: 12em;
+ }
+
+.identite-auteur {
+  width: 10%;
+  height: 2em;
+  color: black;
+  position: fixed;
+  left: -7em;
+  top: -7em;
+}
+
+ .lucas {
+  width: 9em;
+justify-content: center;
+margin: 0;
+}
+
+ .premiere-page {
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: #8dc0ff; /* couleur de fond */
+  background-image:
+    linear-gradient(to right, #d5ebff 0.1rem, transparent 0.1rem),
+    linear-gradient(to bottom, #cff5fe 0.1rem, transparent 0.1rem);
+  background-size: 110px 110px;
+  background-attachment: fixed;
+  color: white;
+  
+ }
+
+ @keyframes zoom {
+
+   0% {
+     scale: 1.05;
+     transform: translateY(-2em);
+   }
+
+   100% {
+     scale: 1;
+   }
+ }
+
+ /* Filtre léger pour améliorer la lisibilité */
+ .contenu-texte {
+ 
+   text-align: center;
+   color: black;
+   backdrop-filter: brightness(1.0);
+   background-color: transparent;
+   margin: 0;
+ }
+
+ /* Titre */
+ .passion {
+   font-size: 2rem;
+   letter-spacing: 3px;
+   margin-bottom: 40px;
+   background-color: transparent;
+   color: black;
+ }
+
+ .passion-global {
+  color: black;
+   position: relative;
+   bottom: 8rem;
+   font-size: 8rem;
+   letter-spacing: 0.2rem;
+   margin-bottom: 3.5rem;
+   animation: arrivee 2s cubic-bezier(0.32, 1.03, 0.78, 0.98), bounce-title 2s ease-in-out infinite alternate;
+
+ }
+
+ @keyframes arrivee {
+   0% {
+     scale: 0.5;
+
+   }
+
+   100% {
+     scale: 1;
+   }
+ }
+
+ @keyframes bounce-title {
+   0% {
+     transform: translateY(0);
+   }
+
+   100% {
+     transform: translateY(0.5rem);
+   }
+
+ }
+
+ /* Modele pour keyframes */
+ /* @keyframes chatouille {
+  0% {
+    
+  }
+  100% {
+    
+  }
+} */
+
+
+
+ .passion-début {
+   font-size: 2.5rem;
+ }
+
+ /* Bouton effet verre ----------------------------*/
+ .glass-button {
+ color: black;
+   position: absolute;
+
+   bottom: 0rem;
+  
+  left: 15.5em;
+   display: flex;
+   padding: 1em 3em;
+   border-radius: 4em;
+   text-decoration: none;
+   font-size: 1.2rem;
+   
+
+   background: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(0.8em);
+   -webkit-backdrop-filter: blur(0.8em);
+
+   border: 0.1rem solid rgba(255, 255, 255, 0.4);
+   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+
+   transition: all 0.3s ease;
+
+   animation: bounce 1s ease-in-out infinite alternate;
+ }
+
+ @keyframes bounce {
+   0% {
+     transform: translateY(0);
+   }
+
+   100% {
+     transform: translateY(1em);
+   }
+ }
+
+ /* Animation au survol */
+ .glass-button:hover {
+   background: rgba(255, 255, 255, 0.35);
+   transform: scale(1.05);
+   scale: 2;
+
+ }
+
+
+
+ /* Texte en bas */
+ .scroll-text {
+   width: 100%;
+   position: absolute;
+   bottom: -6rem;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+   font-size: 1em;
+
+
+   animation: fondu 2s ease-in-out infinite alternate;
+
+ }
+
+ @keyframes fondu {
+   0% {
+     opacity: 0;
+   }
+
+   100% {
+     opacity: 1;
+   }
+ }
+
+ /* POPUP----------------------------------------- */
+
+.image-agrandie {
+  max-width: 100%;
+height: auto;
+ object-fit: contain;
+ margin: 0;
+ padding: 0;
+ position: relative;
+ right: 1.3em;
+}
+.bouton-x {
+  position: absolute;
+  right: 0em;
+  top: -0.05em;
+  font-size: 3em;
+width: 100%;
+height: 100%;
+
+}
+.cacheFenetre {
+   display: flex;
+   position: sticky;
+   right: 14em;
+   left: 200em;
+   height: 1.8em;
+   width: 1.8em;   
+   background-color: rgb(247, 150, 150);
+   color: white;
+   transition: 0.1 s ease-in-out;
+   scale: 1;
+   border-radius: 0.5em;
+   padding: 1.5em;
+    z-index: 1000;
+ }
+
+ .cacheFenetre:hover {
+  transition: 0.1s ease-in-out;
+  scale: 1.1;
+ }
+
+ .popup {
+   position: fixed;
+   z-index: 200;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+ }
+
+
+
+ .popup-visible {
+ 
+   display: flex;
+   justify-content: center;
+  animation: fadeIn 0.4s ease;
+  width: 85%;
+max-width: 65em;
+  height: 85%;
+  background: white;
+  padding: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0 0.8em 3.5em rgba(0, 0, 0, 0.5);
+  margin: auto;
+
+ 
+ }
+
+ .popup-invisible {
+   display: none;
+
+
+ }
+
+ /* dans formulaire */
+
+ .popup-formulaire {
+   width: 50vw;
+   height: 50vh;
+   background-color: white;
+   border-color: solid white;
+   border: solid 1em black;
+  
+   border-radius: 1em;
+   position: absolute;
+   z-index: 200;
+ }
+
+
+
+ /* POUR CHAQUE SECTION -------------------------------------------*/
+
+.cadre-image a {
+  padding: 40px;
+  padding-left: 0;
+}
+
+.figure p {
+  overflow-wrap: break-word;
+}
+
+h3 {
+  color: black;
+}
+
+.line-section {
+  width:50%;
+  border-top: solid black 0.1em;
+  position: absolute;
+  top: 2em;
+}
+
+.star-titre {
+  position: absolute;
+  bottom: -1.3em;
+  width: 4em;
+  height: 4em;
+ 
+
+}
+
+.animation-star {
+   animation: scintillement 1.3s ease-in-out ;
+}
+
+@keyframes scintillement {
+ 
+  0% {
+    scale: 1;
+    transform: rotate(0deg);
+  }
+  20% {
+    scale: 1.3;
+   
+  }
+
+100%{
+  transform: rotate(180deg);
+
+}
+
+}
+
+
+ .background2, .background3, .background4, .background5, .background6, .background7, .background8, .background9, .background9, .background10 {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 4rem 2.5rem;
+ }
+
+
+ 
+/* Titre principal de la section */
+.titre-image {
+  display: block;
+  width: 35%;
+  max-width: 20em;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  margin-left: 2.5rem;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-shadow: 0.15em 0.15em 0.8em rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(0.5em);
+  padding: 0.7em;
+  border-radius: 0.5em;
+  
+}
+
+/* Conteneur de l'image */
+.cadre-image {
+  position: absolute;
+  float: left;
+  margin: 0 5rem 1.5rem 2.5rem;
+  width: 35%;
+  max-width: 30em;
+  background: white;
+  padding: 0.7em;
+  border-radius: 0.5em;
+  box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.15);
+
+  background: rgba(255, 255, 255, 0.85);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  right: 0;
+}
+
+.left-part {
+  animation: bounce 1s ease-in-out infinite alternate;
+}
+
+.cadre-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.image-cliquable {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.image-cliquable:hover {
+  opacity: 0.9;
+}
+
+.image-cliquable:hover {
+   scale: 1.05;
+ }
+
+/* Légende de l'image */
+figcaption {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+figcaption p {
+  margin: 4px 0;
+}
+
+/* Conteneur du texte */
+.cadrage-texte {
+  position: absolute;
+  bottom: 1em;
+  height: 85%;
+  max-width: 60%;
+  overflow: hidden;
+  /* background: rgba(255, 255, 255, 0.30); */
+  
+  padding: 1em;
+  border-radius: 1em;
+transition: 0.1s ease-in-out;
+position: relative;
+right: 0.8em;
+}
+
+
+/* Titre du bloc de texte */
+.titreBloc {
+  font-size: 1.8rem;
+ 
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  padding-left: 1em;
+  line-height: 1.3;
+   color: black;
+  border-left: solid rgb(206, 123, 15) 0.1em;
+}
+
+
+/* Paragraphe de description */
+.description {
+  height: 80%;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+
+  padding: 25px;
+  border-radius: 1em;
+}
+
+
+ figure {
+   position: relative;
+   right: 19em;
+
+ }
+
+
+
+ 
+
+ .panel {
+   width: 100vw;
+   height: 100vh;
+    scroll-snap-align: start;
+
+
+ }
+
+ /* BTN-NAV-------------------- */
+
+ .btn-nav {
+   position: fixed;
+   right: 1em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 50%;
+   bottom: 50%;
+   z-index: 500;
+
+ }
+
+ /* enlever les puces */
+
+ ul {
+   list-style: none;
+   
+ }
+
+ ul a {
+   z-index: 400;
+   display: inline-block;
+   /* nécessaire pour définir largeur/hauteur */
+   width: 10px;
+   /* taille du point */
+   height: 10px;
+   background-color: #000;
+   /* couleur du point */
+   border-radius: 50%;
+   /* rond */
+   text-decoration: none;
+   /* pas de soulignement */
+   margin: 0 5px;
+   /* espacement entre les points si plusieurs */
+   background-color: white;
+  
+ }
+
+
+
+
+
+ /* FORMULAIRE----------------------------------------------------- */
+
+ .titre-formulaire {
+  color: black;
+ 
+  font-size: 3rem;
+  margin-left: 1em;
+  position: absolute;
+ }
+
+ .champs-obligatoires {
+  font-size: 1rem;
+  color: rgb(99, 99, 99);
+ }
+
+.vers-previsu {
+ display: none;
+}
+
+.boutonVisible {
+   background-color: grey;
+ 
+  position: absolute;
+  bottom: 0.7em;
+  left: 15em;
+  width: 40%;
+  height: 3.2em;
+  border-radius: 1em;
+  padding: 0.7em;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s ease-in-out;
+  scale: 1;
+}
+
+.vers-previsu:hover {
+   transition: 0.15s ease-out;
+   scale: 1.1;
+ }
+
+
+
+
+/* mise en forme des champs input obligatoires */
+input:required, textarea:required {
+    border: 0.1rem solid #8299ff;    
+}
+
+
+/* mise en forme des champs input obligatoires qui deviennent valides*/
+input:required:valid, textarea:required:valid {
+    border: 0.12em solid #1a961a;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.cacheFenetre-formulaire {
+  position: absolute;
+  top: 0;
+  background-color: white;
+}
+
+.popup-formulaire p, .popup-formulaire h1 {
+  text-align: center;
+}
+
+.popup-formulaire {
+  position: absolute;
+  right: 25%;
+  left: 25%;
+}
+
+ .zone-ajoutee {
+   display: block;
+   position: absolute;
+   margin: 2em;
+ }
+
+ form {
+   height: 100%;
+   z-index: 100;
+   padding: 2em;
+   display: block;
+
+
+
+
+ }
+
+ input,
+ textarea,
+ fieldset {
+   z-index: 100;
+   background-color: transparent;
+   border: 0.1em solid
+ }
+
+
+ 
+.formulaire{
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fond-formulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   min-height: 100vh;
+  background-color: #c2a7ff; /* couleur de fond */
+  background-image:
+    linear-gradient(to right, #dfdfdf 0.1rem, transparent 0.1rem),
+    linear-gradient(to bottom, #d4d4d4 0.1rem, transparent 0.1rem);
+  background-size: 110px 110px;
+  background-attachment: fixed;
+  color: rgb(0, 0, 0);
+  
+}
+ .formu {
+  width: 50%;
+  max-height: 35em;
+   max-width: 36em;
+   position: absolute;
+padding: 1em 2em 2em 2em;
+border-radius: 2em;
+border-color: white;
+
+background-color: rgb(172, 191, 255);
+
+legend {
+  font-size: 1em;
+  color: black;
+text-shadow: 0 0.3rem 1rem rgba(255, 255, 255, 0.9);
+border-radius: 1em;
+border-color: white solid 0.5em;
+
+padding: 0.7em;
+background-color: rgb(154, 154, 255);
+text-align: center;
+}}
+
+ input,
+ textarea {
+   width: 100%;
+   margin-bottom: 1rem;
+   padding: 0.7em;
+   border-radius: 0.7em;
+   border: none;
+   background-color: white;
+ }
+
+
+ .star-required:focus, 
+
+ textarea {
+   width: 100%;
+   height: 3em;
+   resize: none;
+ }
+
+ /* bouton envoyer */
+
+ .validation {
+height: 3em;
+   margin-top: 0rem;
+   padding: 1em;
+   border-radius: 2em;
+   border: none;
+   background-color: #394ca1;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: transform .3s, box-shadow .3s;
+ }
+
+ .validation:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+ }
+
+ /* animation arrivée sur section */
+
+ .fade-in {
+   opacity: 0;
+   transform: translateY(20px);
+   transition: opacity 0.8s ease, transform 0.8s ease;
+ }
+
+ .fade-in.visible {
+   opacity: 1;
+   transform: translateY(0);
+ }
+
+
+ /*bouton retour haut de page------------------------------ */
+
+
+ .retour {
+   display: block;
+   text-align: center;
+   width: 100%;
+   min-width: 2em;
+   max-width: 4em;
+   height: 100%;
+   min-height: 2em;
+   max-height: 4em;
+   border: 0.1em solid rgb(171, 171, 171);
+   position: fixed;
+   top: 87%;
+   left: 93%;
+   background-color: white;
+   text-decoration: none;
+   padding-top: 1.5em;
+   z-index: 1000;
+
+   border-radius: 0.6em;
+
+   color: rgb(0, 0, 0);
+   transition: 0.15s ease-out;
+   scale: 1;
+ }
+
+ .retour:hover {
+   transition: 0.15s ease-out;
+   scale: 1.1;
+ }
+
+ .retour::after {
+  content: "";
+  width: 12px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  rotate: 45deg;
+ }
+
+  .retour::before {
+  content: "";
+  width: 12px;
+  border-bottom: 2px solid black;
+  position: absolute;
+  top: 50%;
+  right: 46%;
+  rotate: -45deg;
+ }
+
+
+
+ /* PREVISUALISATION--------------------- */
+
+.text-previsu {
+  color: black;
+}
+ .previsualisation {
+
+   font-size: 1.3rem;
+   text-align: center;
+  background-color: #c2a7ff; /* couleur de fond */
+  background-image:
+    linear-gradient(to right, #dfdfdf 0.1rem, transparent 0.1rem),
+    linear-gradient(to bottom, #d4d4d4 0.1rem, transparent 0.1rem);
+  background-size: 110px 110px;
+  background-attachment: fixed;
+  color: rgb(0, 0, 0);
+ }
+
+ .cadre-prévisu {
+  overflow-y: auto;  
+   width: 60%;
+   height: 60%;
+   max-width: 60rem;
+   max-height: 25rem;
+   position: relative;
+   top: 35%;
+   /* border-radius: 3em; */
+  
+  
+   left: 50%;
+   right: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
+   border-radius: 20px;
+   
+ }
+
+ /* MENTION LEGALE--------------------------- */
+
+/* SECTION GENERALE */
+
+.legales {
+    padding: 3.75rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 1, 73);
+    padding-inline: 10rem;
+    margin: 0;
+    color: white;
+}
+
+/* CONTENEUR PLUS LARGE */
+
+.mentions {
+    max-width: 75rem;
+    width: 100%;
+    
+}
+
+/* BLOC */
+
+/* .panel {
+
+    
+} */
+
+/* TITRE PRINCIPAL */
+
+.titre-mention {
+    font-size: 1.6rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+   
+}
+
+/* SOUS TITRES */
+
+.footerContent h3 {
+    margin-top: 1.56rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+     color: white;
+}
+
+/* PARAGRAPHES */
+
+.footerContent {
+    line-height: 1.6;
+    margin-bottom: 0.625rem;
+    font-size: 0.7rem;
+}
+
+/* LIENS */
+
+.footerContent a {
+    color: #4da3ff;
+    text-decoration: none;
+}
+
+.footerContent a:hover {
+    text-decoration: underline;
+}
+
+/* TITRE CLIQUABLE */
+
+.mention {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.125rem;
+
+}
+
+.anim-mention {
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.anim-mention:hover {
+    transform: scale(1.05);
+}
+
+.titre-mention{
+  background-color: #8299ff;
+  margin: 0;
+}
+
+
+ /*---------------------------------- animation des sectons */
+
+ .hidden {
+  opacity: 0;
+  transform: translateY(1.2em);
+  transition:  0.6s ease-out, transform 0.6s ease-out;
+}
+
+.hidden2 {
+  opacity: 0;
+  transform: translateY(0);
+  transition:  0.6s ease-out, transform 0.6s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  /* transform: translateY(0); */
+}
+
+.visible2 {
+  opacity: 1;
+  transition: 1s ease-out;
+  transform: translateY(1em);
+}
+/* -------------------------------------------------- */
+audio {
+  position: absolute;
+ left: 2.4em;
+  
+  width: 80%;
+  height: 2em;
+  bottom: 1em;
+  z-index: 1000;
+}
+
+/* Modif placement */
+
+/* PLAYLIST */
+
+.playlist {
+  position: fixed;
+  margin-left: 3em;
+  bottom: 4em;
+  width: 35%;
+  max-width: 28rem;
+  height: 5.5em;
+  border: white solid 0.2em;
+  background-color: #74b5fa;
+  border-radius: 4em;
+ box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+  transition:  0.3s ease-in-out, transform 0.6s ease-out;
+  animation: bounce 1s ease-in-out infinite alternate;
+  z-index: 1000;
+  scale: 0.8;
+}
+
+.playlist-para {
+  position: absolute;
+  left: 2em;
+  /* bottom: 9em; */
+  
+  width: 85%;
+  bottom: 2em;
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+}
+
+/* ANIMATION playlist*/
+
+.hidden-playlist {
+   opacity: 0;
+  transform: translateY(1.2em);
+  transition:  0.3s ease-in-out, transform 0.6s ease-out;
+}
+
+.footerContent a {
+  color: rgb(92, 95, 255);
+}

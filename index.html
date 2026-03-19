@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin impact</title>
+    <link rel="icon" type="image/png" href="logo/logo3.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+
+
+    <!-- bouton pour revenir en haut de page -->
+    <a class="retour hidden" href="#1" aria-label="Retour en haut de page"></a>
+
+
+    <section class="panel premiere-page" id="1">
+
+
+        <div class="bigstars"></div>
+        <div class="stars1"></div>
+        <div class="stars2"></div>
+        <div class="contenu-texte">
+
+            <div class="passion">
+                <h1 class="passion-global"><span class="passion-début">MA PASSION POUR LE</span><br>JEU VIDÉO</h1>
+            </div>
+
+
+            <p class="description-site">Découvrez ma passion pour le jeu vidéo à travers mon expérience avec Genshin
+                Impact.
+                Exploration, combats, histoire : je vous partage tout ce qui fait que j'aime ce jeu !</p>
+
+
+            <a href="#2" class="glass-button">
+                LET'S GO
+            </a>
+
+
+
+
+            <span class="scroll-text">Tu peux aussi scroller vers le bas</span>
+        </div>
+
+
+    </section>
+
+
+
+    <main id="haut-page">
+
+        <div class="liste-images">
+
+        </div>
+        <div class="popup popup-invisible grande-image window">
+            <button class="cacheFenetre" aria-label="Fermer la popup"><span class="bouton-x">×</span></button>
+            <img class="image-agrandie" src="" alt="Image agrandie">
+
+        </div>
+
+    </main>
+    <footer>
+        <section class=" panel formulaire" id="formulaire">
+
+            <!-- popup de confirmation d'envoie des données du formulaire -->
+            <div class="popup-formulaire popup-invisible">
+
+
+                <p>Merci ! Nous avons bien reçu votre message.</p>
+                <button class="cacheFenetre-formulaire" aria-label="Fermer la popup">×</button>
+            </div>
+
+            <div class="popup-formulaire-erreur popup-invisible">
+
+
+                <p> Oops ! Une erreur est survenue suite à l'envoie du formulaire. Nous n'avons pas reçu votre message.
+                    Veuillez réessayer s'il vous plaît.
+                </p>
+                <button class="cacheFenetre-formulaire" aria-label="Fermer la popup">×</button>
+            </div>
+
+            <!-- TITRE formulaire-->
+
+            <h2 class="titre-formulaire hidden2">Formulaire</h2>
+
+
+
+
+            <form class="fond-formulaire" action="#" method="post">
+                <fieldset class="formu">
+                    <legend>Quel est le dernier jeu vidéo auquel tu as joué ?</legend>
+
+                    <div><span class="champs-obligatoires"> Les champs marqués d’un “ <span class="star-required">
+                                *</span> ” sont obligatoires .</span></div>
+
+                    <label for="comment">Écrivez ici<span class="star-required">*</span> :</label> <br>
+                    <textarea required placeholder="Le dernier jeu auquel j'ai joué était..( 500 car. max. )"
+                        name="comment" id="comment" maxlength="500"></textarea>
+
+
+                    <br>
+                    <!-- Champ pour le lien URL de l'image -->
+                    <label for="lien">Ajouter une image :</label>
+                    <input type="url" id="lien" name="lien" placeholder="lien URL">
+
+                    <br>
+                    <!-- Champ pour le titre de l'image -->
+                    <label for="titre">Ajouter un titre à votre image :</label>
+                    <input type="text" id="titre" name="titre" placeholder="Titre ( 50 car. max. )" maxlength="50">
+
+                    <br>
+
+                    <!-- Champ pour la description de l'image -->
+
+
+                    <label for="f-name">Nom<span class="star-required">*</span> :</label>
+                    <input required placeholder="Votre Nom..." type="text" id="f-name" name="f-name">
+                    <br>
+                    <label for="name">Prénom<span class="star-required">*</span> :</label>
+                    <input required placeholder="Votre Prénom..." type="text" id="name" name="name">
+
+                    <label for="email">Email<span class="star-required">*</span>:</label><br>
+                    <input required placeholder="email@gmail.com..." type="email" id="email" name="email">
+
+
+
+                    <button type="submit" class="validation">Valider</button>
+                    <a class="vers-previsu" href="#previsu" aria-label="Voir une prévisualisation de votre envoie">Voir
+                        une prévisualisation</a>
+                </fieldset>
+            </form>
+        </section>
+
+
+        <section class="panel previsualisation" id="previsu">
+            <br>
+            <h2 class="text-previsu hidden2">Prévisualisation de votre contribution</h2>
+            <div class="ajout cadre-prévisu">
+
+        
+        </div>
+        <a href="#mentions" class="mention">
+            <h2 class="anim-mention">Mentions légales</h2>
+        </a>
+        </section>
+
+        <section class="legales" id="mentions">
+            <div class="mentions panel">
+
+                <div class="footerContent footer-invisible">
+
+                    <h2 class="titre-mention">Mentions légales</h2>
+
+                    <h3>Éditeur du site</h3>
+                    <p>
+                        Lucas Prachith<br>
+                        Étudiant BUT1 MMI<br>
+                        Email :
+                        <a href="mailto:lucas.prachith@edu.univ-eiffel.fr">
+                            lucas.prachith@edu.univ-eiffel.fr
+                        </a>
+                    </p>
+
+                    <h3>Hébergement</h3>
+                    <p>
+                        Nom de l’hébergeur : o2switch SAS ;
+                        Capital social : 100 000 € ;
+                        SIRET : 510 909 807 00024 ;
+                        RCS : Clermont-Ferrand ;
+                        Adresse : Chemin des Pardiaux, 63000 Clermont-Ferrand, France ;
+                        Téléphone : 04 44 44 60 40 ;
+                        Site web :
+                        <a href="https://www.o2switch.fr" target="_blank">
+                            https://www.o2switch.fr
+                        </a>
+                    </p>
+
+                    <h3>Crédits</h3>
+
+                    <p>
+                        Les captures d’écran provenant de Genshin Impact sont la propriété de Hoyoverse,
+                        utilisées à titre illustratif dans le cadre d’un projet pédagogique et sans but commercial.
+                    </p>
+
+                    <p>
+                        L’image intitulée « Version Luna.4 du jeu » provient du compte X officiel de Genshin Impact.
+                    </p>
+
+                    <p>
+                        L’image de fond utilisée provient de Pexels et est librement utilisable selon la licence de
+                        la plateforme.
+                    </p>
+
+                    <p>
+                        L’icône du site a été réalisée par l’auteur du site via Canva et est donc la propriété de
+                        l’éditeur.
+                    </p>
+
+                    <p>
+                        Certaines parties du code JavaScript, notamment celles liées à la détection d’éléments lors
+                        du défilement
+                        de la page (Intersection Observer), sont inspirées et adaptées d’un tutoriel de la chaîne
+                        YouTube
+                        <strong>Coding2GO</strong> intitulé :
+                        « Create Amazing SCROLL Animations with Intersection Observer ».
+                        <br>
+                        Vidéo :
+                        <a href="https://youtu.be/adqwnu3gs2k" target="_blank">
+                            https://youtu.be/adqwnu3gs2k
+                        </a>
+                    </p>
+
+                    <h3>Données personnelles</h3>
+
+                    <p>
+                        Les informations collectées via le formulaire du site sont transmises exclusivement à une
+                        base de
+                        données mise à disposition par l’enseignant responsable du projet, dans un cadre strictement
+                        pédagogique.
+                    </p>
+
+                    <p>
+                        Ces données sont utilisées uniquement à des fins d’évaluation et d’apprentissage, et ne font
+                        l’objet
+                        d’aucune exploitation commerciale ni de transmission à des tiers.
+                    </p>
+
+                    <p>
+                        Conformément au Règlement Général sur la Protection des Données (RGPD), vous pouvez demander
+                        l’accès,
+                        la rectification ou la suppression de vos données en contactant l’éditeur du site.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+    </footer>
+
+
+
+</body>
+
+<script type="module" src="./script.js"></script>
+
+</html>

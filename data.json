@@ -1,0 +1,102 @@
+[
+    {
+        "Titreimage": "Moi",
+        "titreTexte": "A propos de moi",
+        "descriptionTexte": "Salut, je m'appelle Lucas, je suis étudiant en première année de BUT MMI à l'IUT de Champs-sur-Marne. Depuis tout petit, je suis fan des jeux vidéo. J’ai commencé par des jeux mobiles comme “Subway surfer” (assez populaire), cooking fever ou encore just dance sur la Wii ! Dans le cadre d’un projet de Saé intégré à ma formation, j'aimerais vous partager ma passion pour le jeu vidéo !",
+        "url": "img/avatar.png",
+        "source": "Source : Lucas prachith projet",
+        "auteur": "Lucas Prachith",
+        "href": "2",
+        "label": "Personnage qui me représente"
+    },
+    {
+        "Titreimage": "Nintendo switch",
+        "titreTexte": "Un jeu vidéo, c'est quoi ?",
+        "descriptionTexte": "Un jeu vidéo est un jeu électronique qui possède une interface utilisateur. Il permet ainsi une interaction ludique et humaine, qui génère un retour visuel sur un écran ou tout type de dispositif vidéo. Il s'agit littéralement d'un jeu se déroulant sur un écran. <br> Passons maintenant à la suite !",
+        "url": "img/jeu-video.jpg",
+        "source": "Pexels",
+        "auteur": "Pixabay",
+        "href": "3",
+        "label": "Nintendo switch avec le jeu Mario Kart World lancé"
+    },
+    {
+        "Titreimage": "Version Luna.IV annoncée",
+        "titreTexte": "Genshin Impact",
+        "descriptionTexte": " Connaissez-vous Genshin Impact ? <br> <a href='https://fr.wikipedia.org/wiki/Genshin_Impact'>Genshin Impact</a> est un jeu vidéo de rôle et d’ <a href='https://fr.wikipedia.org/wiki/Action-RPG'>action RPG</a> en monde ouvert, développé par HoYoverse. Il se déroule dans le monde fantastique de Teyvat, composé de plusieurs régions inspirées de cultures réelles.<br>Pourquoi je vous parle de ce jeu? En fait j’aimerais vous partager ma passion à travers mon expérience avec ce jeu car il regroupe énormément de choses que j'aime dans le domaine du jeu vidéo.",
+        "url": "img/nod-krai.jpeg",
+        "source": "https://x.com/GenshinImpact",
+        "auteur": "X-Genshin Impact account",
+        "href": "4",
+        "label": "illustration de la prochaine mise à jour de Genshin Impact"
+    },
+    {
+        "Titreimage": "Columbina - Déesse de la Lune de Givre",
+        "titreTexte": "L'histoire racontée",
+        "descriptionTexte": "Le joueur incarne un Voyageur à la recherche de son jumeau qui a disparu mystérieusement. Il explore ainsi le monde en accomplissant des quêtes, en combattant des ennemis et en voyageant aux quatres coins du monde, afin d'obtenir explications et indices pour la retrouver.<br> Cette année nous rencontrons une déesse, avec une personnalité très mystérieuse. Nous-aidera-t-elle à retrouver notre jumeau ? L'histoire du jeu est vraiment bien écrite et très agréable à suivre(c'est comme regarder un film parfois) !<br> <br>J'ai tellement hâte de connaître la suite de l'histoire qui sort le 14 Janvier !",
+        "url": "img/columbina.png",
+        "source": "capture écran depuis : https://youtu.be/PtuoSxQsOUg",
+        "auteur": "Genshin Impact, Hoyoverse",
+        "href": "7",
+        "label": "Personnage de Columbina qui donne un air mystérieux et qui tend la main vers l'avant"
+    },
+    {
+        "Titreimage": "Réaction alternative plante/eau",
+        "titreTexte": "Le Gameplay",
+        "descriptionTexte": " Tout d’abord, il y a le gameplay. C’est-à-dire la façon dont le jeu fonctionne et s’il est agréable à jouer. <br>Sur Genshin Impact, ce que je préfère, c’est le système de combat. Il repose sur des réactions élémentaires (l’eau, le feu, l’éclair, la glace…) qui permettent une multitude de combinaisons pour infliger des dégâts aux ennemis. Cela nous pousse à être stratégiques pour devenir les meilleurs et infliger le plus de dégâts possible.",
+        "url": "img/reaction-seleno.png",
+        "source": "Source : Capture écran dans Genshin Impact © HoYoverse",
+        "auteur": "Hoyoverse",
+        "href": "4",
+        "label": "combat de boss avec réactions de Sélénofleurissement sur l'ennemie"
+    },
+    {
+        "Titreimage": "Concert Genshin Impact",
+        "titreTexte": "La musique",
+        "descriptionTexte": "La musique joue un rôle central dans le jeu vidéo, il accompagne les combats, les explorations,... C'est pour cela que j'aime tant Genshin Impact. Ses musiques me font ressentir une nostalgie et m'apaisent. <br> Chaque année, une nouvelle région sort sur le jeu, et nous avons le droit à une centaine de nouvelles musiques, chacune unique en leur genre. Certaines ont marqués mes esprits et sont gravés dans ma mémoire. <br>Je vous invite à écouter l'une de mes chansons préférées de cette licence, en cliquant juste à gauche sur le lien violet!",
+        "url": "img/concert.png",
+        "source": "<a href='https://youtu.be/RuXa_yxZMGI'> https://YouTube/GenshinImpact </a>",
+        "auteur": "HOYO-MiX, AURORA, Genshin Impact",
+        "href": "4",
+        "label": "photo d'un concert d'une chanson de Genshin impact"
+    },
+    {
+        "Titreimage": "Etoile filante",
+        "titreTexte": "Le Casino virtuel",
+        "descriptionTexte": "J’aime aussi le système de récompense nommé «gacha», qui est un peu comme un casino : on doit miser sur notre chance afin obtenir les meilleures récompenses possibles comme de nouveaux personnages ou armes ! (Attention c’est addictif ! ) <br>Si on a une étoile filante dorée, on obtient la meilleure récompense du jeu ! ( 0,06 % de chance pour avoir ça )",
+        "url": "img/gacha.jpeg",
+        "source": "Genshin Impact © HoYoverse",
+        "auteur": "Hoyoverse",
+        "href": "5",
+        "label": "Etoile filante doré traversant un ciel bleu nuageux"
+    },
+    {
+        "Titreimage": "Interface de Genshin",
+        "titreTexte": "L'esthétique",
+        "descriptionTexte": "Ensuite, il y a l’esthétique du jeu. Genshin Impact s’inspire du style manga : ses paysages et ses personnages me rappellent les animés japonais que j’adore ! L'interface utilisateur est aussi très agréables à manipuler et rend l’expérience encore meilleur. Juste à gauche, vous pouvez voir un aperçu de son interface",
+        "url": "img/interface.png",
+        "source": "Genshin Impact © HoYoverse",
+        "auteur": "Hoyoverse",
+        "href": "6",
+        "label": "Exemple d'interface du jeu de Genshin Impact"
+    },
+    {
+        "Titreimage": "Région - Sumeru",
+        "titreTexte": "L'exploration",
+        "descriptionTexte": "Un autre point que j’adore, c’est le monde ouvert et l’exploration. La découverte est très importante pour moi dans un jeu, et Genshin y répond parfaitement. Le jeu est vaste et s’étend sur plusieurs régions aux paysages différents, que l’on découvre petit à petit, chacune avec ses populations et ses secrets. Le nombre de possibilités de déplacement est aussi un vrai plaisir : voler, nager, escalader… chaque exploration est unique.",
+        "url": "img/Sumeru.png",
+        "source": "Source : Capture écran dans Genshin Impact © HoYoverse",
+        "auteur": "Hoyoverse",
+        "href": "8",
+        "label": "Vue sur un paysage verdoyant de la région de Sumeru de Genshin Impact"
+    },
+    {
+        "Titreimage": "Miniature YouTube de 'Polia'",
+        "titreTexte": "La communauté",
+        "descriptionTexte": "Enfin, il y a la communauté autour du jeu. Les fan animations sont souvent très drôles à regarder sur les réseaux sociaux. Les YouTubeurs nous aident à progresser dans les combats et expliquent certains mécanismes complexes. Le partage d’expérience sur les quêtes tristes, les combats, les nouveaux personnages ou les stratégies est super motivant. Les théories sur la suite de l’histoire ou les explications de quêtes plus difficiles sont fascinantes à suivre et permettent de mieux comprendre l’univers du jeu. <br> Merci d'avoir lu !",
+        "url": "img/polia.png",
+        "source": "https://www.youtube.com/@Poliaa",
+        "auteur": "Polia sur YouTube",
+        "href": "9",
+        "label": "Miniature d'une vidéo reaction de Polia sur Youtube"
+    }
+]
